@@ -12,7 +12,6 @@ FuzzCraft Bash Helper is a colorful, interactive command-line script that guides
 
 ![Bash Version](https://img.shields.io/badge/Bash-%3E%3D4.0-blue?style=for-the-badge&logo=gnu-bash)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-[![Made with Love](https://img.shields.io/badge/Made%20with-%❤️%20&%20☕-orange?style=for-the-badge)](https://shields.io)
 <!-- Optional: Add a CI/CD badge if you set one up -->
 
 </div>
