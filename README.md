@@ -2,7 +2,7 @@
 
 # 🚀 FuzzCraft Bash Helper 💣
 
-<img src="https://raw.githubusercontent.com/YOUR_USERNAME/FuzzyRabbit/main/assets/Image_fx.jpg" alt="FuzzCraft Banner" width="700"/>
+<img src="https://raw.githubusercontent.com/somerandomcell/FuzzyRabbit/main/assets/Image_fx.jpg" alt="FuzzCraft Banner" width="700"/>
 <!-- You'll need to create a banner image and put it in an 'assets' folder -->
 
 **Your Interactive Co-Pilot for FFUF Command Line Mastery!**
