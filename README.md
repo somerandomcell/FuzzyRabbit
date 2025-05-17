@@ -47,7 +47,7 @@ fuzzyrabbit.sh Bash Helper is a colorful, interactive command-line script that g
 
 ## 🚀 Installation & Usage
 
-1.  **Clone the repository (or download `fuzzyrabbit.sh.sh`):**
+1.  **Clone the repository (or download `fuzzyrabbit.sh`):**
     ```bash
     git clone https://github.com/somerandomcell/FuzzyRabbit.git
     cd FuzzyRabbit
@@ -55,12 +55,12 @@ fuzzyrabbit.sh Bash Helper is a colorful, interactive command-line script that g
     
 2.  **Make the script executable:**
     ```bash
-    chmod +x fuzzyrabbit.sh.sh
+    chmod +x fuzzyrabbit.sh
     ```
 
 3.  **Run the script:**
     ```bash
-    ./fuzzyrabbit.sh.sh
+    ./fuzzyrabbit.sh
     ```
 
 4.  **Follow the interactive prompts!** The script will guide you through setting up:
@@ -82,7 +82,7 @@ fuzzyrabbit.sh Bash Helper is a colorful, interactive command-line script that g
 ## 🛠️ Customization
 
 *   **`FFUF_COMMAND` Variable:**
-    At the top of `fuzzyrabbit.sh.sh`, you can change the `FFUF_COMMAND` variable if your `ffuf` binary is not in your `PATH` or has a different name:
+    At the top of `fuzzyrabbit.sh`, you can change the `FFUF_COMMAND` variable if your `ffuf` binary is not in your `PATH` or has a different name:
     ```bash
     FFUF_COMMAND="/path/to/your/ffuf"
     ```
