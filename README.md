@@ -1,14 +1,14 @@
 <div align="center">
 
-# 🚀 FuzzCraft Bash Helper 💣
+# 🚀 fuzzyrabbit.sh Bash Helper 💣
 
-<img src="Image_fx.jpg" alt="FuzzCraft Banner" width="700"/>
+<img src="Image_fx.jpg" alt="fuzzyrabbit.sh Banner" width="700"/>
 <!-- You'll need to create a banner image and put it in an 'assets' folder -->
 
 **Your Interactive Co-Pilot for FFUF Command Line Mastery!**
 
 Tired of fumbling with `ffuf` syntax during intense CTFs or pentests?
-FuzzCraft Bash Helper is a colorful, interactive command-line script that guides you through building complex `ffuf` commands, ensuring you get your fuzzing right, *fast*.
+fuzzyrabbit.sh Bash Helper is a colorful, interactive command-line script that guides you through building complex `ffuf` commands, ensuring you get your fuzzing right, *fast*.
 
 ![Bash Version](https://img.shields.io/badge/Bash-%3E%3D4.0-blue?style=for-the-badge&logo=gnu-bash)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
@@ -47,21 +47,20 @@ FuzzCraft Bash Helper is a colorful, interactive command-line script that guides
 
 ## 🚀 Installation & Usage
 
-1.  **Clone the repository (or download `fuzzcraft.sh`):**
+1.  **Clone the repository (or download `fuzzyrabbit.sh.sh`):**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPONAME.git
-    cd YOUR_REPONAME
+    git clone https://github.com/somerandomcell/FuzzyRabbit.git
+    cd FuzzyRabbit
     ```
-    *(Replace `YOUR_USERNAME/YOUR_REPONAME` with your actual repo details)*
-
+    
 2.  **Make the script executable:**
     ```bash
-    chmod +x fuzzcraft.sh
+    chmod +x fuzzyrabbit.sh.sh
     ```
 
 3.  **Run the script:**
     ```bash
-    ./fuzzcraft.sh
+    ./fuzzyrabbit.sh.sh
     ```
 
 4.  **Follow the interactive prompts!** The script will guide you through setting up:
@@ -83,7 +82,7 @@ FuzzCraft Bash Helper is a colorful, interactive command-line script that guides
 ## 🛠️ Customization
 
 *   **`FFUF_COMMAND` Variable:**
-    At the top of `fuzzcraft.sh`, you can change the `FFUF_COMMAND` variable if your `ffuf` binary is not in your `PATH` or has a different name:
+    At the top of `fuzzyrabbit.sh.sh`, you can change the `FFUF_COMMAND` variable if your `ffuf` binary is not in your `PATH` or has a different name:
     ```bash
     FFUF_COMMAND="/path/to/your/ffuf"
     ```
