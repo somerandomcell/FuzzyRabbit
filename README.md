@@ -33,8 +33,75 @@ FuzzCraft Bash Helper is a colorful, interactive command-line script that guides
 
 ---
 
-## 🎬 Demo
 
-*(Consider adding a short GIF or asciinema recording here showing the script in action. This is highly effective!)*
+---
 
-**Without `gum`:**
+## ⚙️ Requirements
+
+*   **Bash:** Version 4.0 or higher.
+*   **`ffuf`:** Must be installed and preferably in your `PATH`. [Get ffuf](https://github.com/ffuf/ffuf)
+*   **(Optional but Recommended) `gum`:** For the enhanced UI. [Install gum](https://github.com/charmbracelet/gum#installation)
+*   **(Optional for Clipboard) `xclip` or `pbcopy`:** For copying the command to the clipboard on Linux/macOS.
+
+---
+
+## 🚀 Installation & Usage
+
+1.  **Clone the repository (or download `fuzzcraft.sh`):**
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/YOUR_REPONAME.git
+    cd YOUR_REPONAME
+    ```
+    *(Replace `YOUR_USERNAME/YOUR_REPONAME` with your actual repo details)*
+
+2.  **Make the script executable:**
+    ```bash
+    chmod +x fuzzcraft.sh
+    ```
+
+3.  **Run the script:**
+    ```bash
+    ./fuzzcraft.sh
+    ```
+
+4.  **Follow the interactive prompts!** The script will guide you through setting up:
+    *   🎯 Target URL (with `FUZZ` keyword)
+    *   📖 Wordlist
+    *   📡 HTTP Method
+    *   👤 Custom Headers
+    *   📎 Extensions
+    *   🚦 Status Code Matching/Filtering
+    *   🔄 Recursion
+    *   ...and more!
+
+5.  **Review the generated command.**
+
+6.  **Choose to execute it immediately or copy it to your clipboard.**
+
+---
+
+## 🛠️ Customization
+
+*   **`FFUF_COMMAND` Variable:**
+    At the top of `fuzzcraft.sh`, you can change the `FFUF_COMMAND` variable if your `ffuf` binary is not in your `PATH` or has a different name:
+    ```bash
+    FFUF_COMMAND="/path/to/your/ffuf"
+    ```
+
+---
+
+## 🎨 Making it Your Own (The "Colorful" and "Well-Designed" Part)
+
+This script uses ANSI escape codes for colors. Here's a peek at how it's done:
+
+```bash
+# Example color definitions in the script
+BOLD=$(tput bold)
+RED=$(tput setaf 1)
+GREEN=$(tput setaf 2)
+YELLOW=$(tput setaf 3)
+CYAN=$(tput setaf 6)
+NORMAL=$(tput sgr0)
+
+# Usage example
+echo -e "${CYAN}${BOLD}Enter Target URL:${NORMAL} ${YELLOW}[Default: http://localhost/FUZZ]${NORMAL}"
