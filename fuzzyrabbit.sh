@@ -259,8 +259,6 @@ echo -e "${MAGENTA}${BOLD}=====================================${NORMAL}"
 echo -e "${MAGENTA}${BOLD}         Final FFUF Command          ${NORMAL}"
 echo -e "${MAGENTA}${BOLD}=====================================${NORMAL}"
 echo -e "${YELLOW}${BOLD}$BUILT_COMMAND${NORMAL}\n"
-
-# --- Execute ---
 run_command="n"
 get_yes_no "Execute this command now?" "y" run_command
 
